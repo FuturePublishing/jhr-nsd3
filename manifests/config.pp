@@ -1,6 +1,6 @@
 class nsd3::config {
 
-  $servertype = hiera('nsd::servertype')
+  $servertype = hiera('nsd3::servertype')
 
   file { '/etc/nsd3/code/':
     ensure  => directory,

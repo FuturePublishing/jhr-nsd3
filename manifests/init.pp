@@ -11,7 +11,7 @@
 #
 # === Variables
 #
-# nsd::servertype:
+# nsd3::servertype:
 #
 # 'master' or 'slave'
 #
@@ -19,7 +19,7 @@
 #
 # include nsd3
 #
-# In relevant part of hiera tree - nsd::servertype: master
+# In relevant part of hiera tree - nsd3::servertype: master
 #
 # === Authors
 #
