@@ -1,0 +1,19 @@
+# This is a list of zonefiles and their type.
+# M indicates that this is a modified zone and the file
+# 'master.zone-name' should be used in the NSD config file.
+# S means that it's a standard, parked or placeholder zone
+# and the file 'master.standard.zonefile' should be used.
+# F means a different standard zonefile should be used.
+# In our case it's because the registrar for .fr (among others)
+# requires working MX records, which is not true for other
+# domain registrars. These are hardcoded in fbridge.rb
+# for reasons of idleness. Your mileage may vary.
+#
+:M:0.0.127.in-addr.arpa
+:M:1.168.192.in-addr.arpa
+:M:2.168.192.in-addr.arpa
+:M:yourdomain.net
+:M:anotherdomain.com
+:M:adifferentdomain.co.uk
+:S:aplaceholderdomain.co.uk
+:F:adifferentplaceholder.fr

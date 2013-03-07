@@ -1,0 +1,6 @@
+---
+servers:
+  master-1:
+    address: 192.168.1.1
+    outbound-addr: 192.168.2.1
+    
