@@ -16,7 +16,7 @@ jhr@mysparedomain.com
 Support
 -------
 
-Please log tickets and issues on [Github](http://projects.example.com)
+Please log tickets and issues on [Github](https://github.com/FuturePublishing/jhr-nsd3)
 
 Theory of operation
 -------------------
